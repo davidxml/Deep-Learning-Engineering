@@ -1,0 +1,15 @@
+# Ignore the virtual environment
+.pyenv/
+venv/
+env/
+
+# Ignore massive data files (we don't upload datasets to GitHub)
+data/
+*.csv
+*.jpg
+*.png
+*.zip
+# Ignore compiled python files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
